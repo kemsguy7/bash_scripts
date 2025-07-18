@@ -1,4 +1,9 @@
-fruit="apple" 
+#!/bin/bash
+echo "Please enter the name of a fruit: "
+fruit= read fruit
+
+
+echo "You entered: $fruit"
 
 case $fruit in 
     "apple")
